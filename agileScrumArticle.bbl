@@ -1,0 +1,37 @@
+\begin{thebibliography}{CV03}
+
+\bibitem[All]{agileManifest}
+Agile Alliance.
+\newblock Основополагающие принципы
+  agile-манифеста.
+\newblock \url{http://agilemanifesto.org/iso/ru/principles.html}, visited
+  2018-01-10.
+
+\bibitem[CV03]{LarmanC}
+Larman C. and Basili V.R.
+\newblock Iterative and incremental development: A brief history.
+\newblock {\em Computer}, 36(6):47--56, 2003.
+
+\bibitem[Sap]{ScrumSap}
+SapLand.
+\newblock Применение scrum-подходов в проектах sap.
+\newblock
+  \url{https://edu.sapland.ru/master-classes/vesennyaya-sessiya-master-klassov-sapland-1753577898/primenenie-scrum-podhodov-v-proektah-sap/},
+  visited 2018-01-10.
+
+\bibitem[��18]{AgilePrinciples}
+Стеллман Э. and Грин Д.
+\newblock {\em Постигая Agile. Ценности, принципы,
+  методологии}.
+\newblock МИФ: Манн, Иванов и Фербер, 2018.
+
+\bibitem[���18]{InfoSysImplementation}
+Гудков Е.А, Деревнина А.М, and Катасонова Н.С.
+\newblock Анализ каскадной, итерационной и
+  спиралевидной модели внедрения
+  корпоративных информационных систем.
+\newblock {\em Корпоративные информационные
+  системы}, 1:16--27, 2018.
+\newblock \url{http://corpinfosys.ru/archive/issue-1/48-2018-1-models}.
+
+\end{thebibliography}

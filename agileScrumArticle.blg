@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: agileScrumArticle.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: alpha.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: sample.bib
+You've used 5 entries,
+            2543 wiz_defined-function locations,
+            590 strings with 5651 characters,
+and the built_in function-call counts, 1694 in all, are:
+= -- 160
+> -- 79
+< -- 2
++ -- 25
+- -- 25
+* -- 104
+:= -- 293
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 28
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 65
+empty$ -- 131
+format.name$ -- 32
+if$ -- 343
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 29
+num.names$ -- 15
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 52
+stack$ -- 0
+substring$ -- 65
+swap$ -- 5
+text.length$ -- 2
+text.prefix$ -- 2
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 15
+width$ -- 8
+write$ -- 64
