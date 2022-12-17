@@ -2,7 +2,7 @@
 \usepackage{indentfirst}
 \usepackage[paperwidth=170mm,paperheight=240mm,centering,height=186mm,width=120mm]{geometry}
 \usepackage{geometry}
-\usepackage[square,numbers]{natbib}%
+
 \geometry{left=1.5cm}
 \geometry{right=1.5cm}
 \geometry{top=1.5cm}
@@ -21,7 +21,7 @@
 \usepackage{graphicx, float}
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 %\usepackage[math]{pscyr}  %This package is optional
-\usepackage[T2A]{fontenc}
+
 %\usepackage{pifont} % Used for upright greeks in math
 \usepackage{caption}
 \usepackage{authblk}
@@ -97,28 +97,28 @@
    {\bf\ \MakeUppercase{#1} }
   \end{center}}
 
-\renewenvironment{thebibliography}[1]
-     {\dsection{\refname}
-      \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
-      %\parskip 1.4em
-      \list{\@biblabel{\@arabic\c@enumiv}}%
-           {\settowidth\labelwidth{\@biblabel{#1}}%
-            \leftmargin\labelwidth
-            \advance\leftmargin\labelsep
-            \@openbib@code
-            \usecounter{enumiv}%
-            \let\p@enumiv\@empty
-            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
-      \parskip=-.4em
-      \@outerparskip=.4em
-      \sloppy
-      \clubpenalty4000
-      \@clubpenalty \clubpenalty
-      \widowpenalty4000%
-      \sfcode`\.\@m}
-     {\def\@noitemerr
-       {\@latex@warning{Empty `thebibliography' environment}}%
-      \endlist\removelastskip}
+% \renewenvironment{thebibliography}[1]
+%      {\dsection{\refname}
+%       \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+%       %\parskip 1.4em
+%       \list{\@biblabel{\@arabic\c@enumiv}}%
+%            {\settowidth\labelwidth{\@biblabel{#1}}%
+%             \leftmargin\labelwidth
+%             \advance\leftmargin\labelsep
+%             \@openbib@code
+%             \usecounter{enumiv}%
+%             \let\p@enumiv\@empty
+%             \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+%       \parskip=-.4em
+%       \@outerparskip=.4em
+%       \sloppy
+%       \clubpenalty4000
+%       \@clubpenalty \clubpenalty
+%       \widowpenalty4000%
+%       \sfcode`\.\@m}
+%      {\def\@noitemerr
+%        {\@latex@warning{Empty `thebibliography' environment}}%
+%       \endlist\removelastskip}
 
 \makeatother
 
@@ -139,7 +139,7 @@
 %\newcommand{\No}{{\usefont{T2A}{ftm}{m}{n}\selectfont \char'374}}
 %\else
 %\renewcommand{\No}{{\usefont{T2A}{ftm}{m}{n}\selectfont \char'374}}
-\newcommand{\No}{{\usefont{T2A}{cmr}{m}{n}\selectfontќ}}
+\newcommand{\No}{{\usefont{T2A}{cmr}{m}{n}\selectfont}}
 \fi
 
 %\def\title#1{\uppercase{\gdef\@title{#1}}}

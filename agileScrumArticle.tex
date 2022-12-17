@@ -1,9 +1,13 @@
-
 \documentclass[12pt]{article}
+\usepackage{url}
 \usepackage[T2A]{fontenc}
-\usepackage[english,russian]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
 \usepackage{graphicx,articleStyle}
+\usepackage[backend=biber,style=numeric,sorting=nty,backref,natbib,hyperref]{biblatex}
+\addbibresource{sample.bib}
+
+
 \pagestyle{fancy} 
 \fancyhead{} 
 \fancyfoot{} 
@@ -324,8 +328,10 @@ Agile Scrum существенных преимуществ здесь дать 
 ориентирован в большей степени на пользователей и разработчиков, в то время как
 каскадная схема – на руководителей проектов.
 %Возможно использовать bibtex.
-\bibliographystyle{alpha}
-\bibliography{sample}
+% \bibliographystyle{alpha}
+% \bibliography{sample}
+\addcontentsline{toc}{chapter}{Литература}
 
+\printbibliography[title={Литература}]
 
 \end{document}
