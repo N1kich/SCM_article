@@ -84,6 +84,7 @@ When you get this repo and install all required environment on your local machin
     Example Workspace contains many of log files, if you don't have any these file at the first launch, don't worry LaTeX creates them after first compilation
 *  `agileScrumArticle.tex` contains the .tex markup and this is your main file, if you want to rewrite or change something. After making changes:
     * press the combination 
-        ``` Cntrl + S ``` and article starts to build automatically;
-    * or press the LaTeX page and choose the `Build LaTeX Project`
-        ![Build LaTeX Project](/readme_figures/buildLaTeX.png)
+        ` Cntrl + S ` and article starts to build automatically;\
+    * or press the LaTeX page and choose the `Build LaTeX Project
+
+    ![Build LaTeX Project](/readme_figures/buildLaTeX.png)
